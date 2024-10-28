@@ -4,8 +4,8 @@ import { Link, NavLink } from 'react-router-dom';
 export default function Footer() {
     return (
         <footer className="bg-gray-900 border-t-2 border-gray-200">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <div className="md:flex md:justify-between">
+            <div className="mx-auto w-full max-w-screen-xl p-3 py-6 lg:py-4">
+                {/* <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
                         <div className='flex items-center border-2 w-36 h-12 border-red-600'>
                             <h2 className='text-white font-bold text-3xl p-2'>GOURAV</h2>
@@ -73,8 +73,8 @@ export default function Footer() {
                             </ul>
                         </div>
                     </div>
-                </div>
-                <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+                </div> */}
+                {/* <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" /> */}
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-white sm:text-center">
                         © 2024

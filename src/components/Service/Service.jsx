@@ -14,17 +14,17 @@ export default function Service() {
                     {
                         title: "JAVA Developer",
                         description: "Building robust and scalable Java applications for various platforms.",
-                        imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNlE0UjDpDaWxUmzvghgalP3y-DQY1eRzBLVZr93f2gg&s"
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/5047/5047135.png"
                     },
                     {
                         title: "WEB Developer",
                         description: "Creating responsive and interactive websites using modern web technologies.",
-                        imgSrc: "https://images.vexels.com/content/204038/preview/web-developer-logo-design-29b5d4.png"
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/7991/7991055.png"
                     },
                     {
                         title: "UI Designer",
                         description: "Designing user-friendly interfaces that enhance user experience and engagement.",
-                        imgSrc: "https://moqod.com/static/img/ux-ui-00-2x.png"
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/8407/8407535.png"
                     },
                     {
                         title: "App Developer",
@@ -33,7 +33,7 @@ export default function Service() {
                     },
                 ].map((service, index) => (
                     <div key={index} className="w-[300px] h-[220px] bg-gray-700 border-2 border-yellow-500 rounded-lg shadow-xl transform transition-transform duration-300 hover:scale-105 m-4">
-                        <img className="w-12 h-12 ml-5 mt-5" src={service.imgSrc} alt={service.title} />
+                        <img className="w-12 h-12 ml-5 mt-5" src={service.imgSrc} alt={service.title} style={{ backgroundColor: 'transparent' }}/>
                         <h4 className="ml-5 mt-3 text-yellow-300 text-xl font-semibold">{service.title}</h4>
                         <p className="ml-5 text-white text-sm pr-4">{service.description}</p>
                     </div>

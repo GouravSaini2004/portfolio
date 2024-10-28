@@ -49,21 +49,21 @@ export default function Contact() {
                 {/* Contact Information */}
                 <div className="p-6 bg-gray-800 rounded-lg shadow-lg text-white">
                     <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">Get in Touch:</h1>
-                    <p className="text-lg sm:text-xl font-medium mt-2">Fill in the form to start a conversation</p>
+                    <p className="text-lg sm:text-xl font-medium mt-2">I’d love to hear from you! Whether you have a question, want to discuss a project, or just want to connect, feel free to reach out. Fill in the form to start a conversation</p>
 
                     <div className="flex items-center mt-8">
                         <i className="fa-solid fa-location-dot text-yellow-300"></i>
-                        <div className="ml-4 text-md tracking-wide font-semibold">Poothri, Jani Khurd, Meerut (UP)</div>
+                        <div className="ml-4 text-md tracking-wide font-semibold">Meerut (UP)</div>
                     </div>
 
                     <div className="flex items-center mt-4">
                         <i className="fa-solid fa-mobile-button text-yellow-300"></i>
-                        <div className="ml-4 text-md tracking-wide font-semibold">+91 6397018504</div>
+                        <div className="ml-4 text-md tracking-wide font-semibold">+91 0000000000</div>
                     </div>
 
                     <div className="flex items-center mt-2">
                         <i className="fa-solid fa-envelope text-yellow-300"></i>
-                        <div className="ml-4 text-md tracking-wide font-semibold">mrgoravsainimrt@gmail.com</div>
+                        <div className="ml-4 text-md tracking-wide font-semibold">gouravsaini@gmail.com</div>
                     </div>
                 </div>
 

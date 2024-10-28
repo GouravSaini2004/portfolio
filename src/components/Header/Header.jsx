@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { FiMenu } from "react-icons/fi";
 
 
 export default function Header() {
@@ -15,7 +16,7 @@ export default function Header() {
                     <div className='flex items-center border-2 w-auto h-12 border-red-600'>
                         <h2 className='text-white font-bold text-3xl p-2'>GOURAV</h2>
                     </div>
-                    <div className="hidden md:flex items-center flex-wrap lg:order-2">
+                    {/* <div className="hidden md:flex items-center flex-wrap lg:order-2">
                         <Link
                             to="#"
                             className="text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
@@ -28,17 +29,15 @@ export default function Header() {
                         >
                             Get started
                         </Link>
-                    </div>
+                    </div> */}
                     <div className="relative lg:hidden block order-1 text-white mr-8">
                         <div className="flex items-center">
                             <div onClick={toggleDropdown} className="cursor-pointer flex text-3xl">
-                                <div className="dot">|</div>
-                                <div className="dot">|</div>
-                                <div className="dot">|</div>
+                                <FiMenu />
                             </div>
                         </div>
                         {isOpen && (
-                            <ul className="absolute right-0 mt-2 bg-gray-800 rounded-lg shadow-lg z-50 w-52">
+                            <ul className="absolute right-0 mt-2 bg-gray-800 rounded-lg shadow-lg z-50 w-32">
                                 <li onClick={toggleDropdown}>
                                     <NavLink to="/" className="block px-4 py-2 hover:bg-orange-700 rounded">
                                         Home

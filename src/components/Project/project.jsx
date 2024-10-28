@@ -4,7 +4,7 @@ const projects = [
     {
         title: 'MegaBlog Application',
         description: 'A comprehensive blogging platform with user authentication, post creation, and commenting features.',
-        link: '#', // Replace with your project link
+        link: '', // Replace with your project link
     },
     {
         title: 'Weather Forecast Application',
@@ -14,27 +14,27 @@ const projects = [
     {
         title: 'E-Sports Website',
         description: 'A dynamic website for e-sports enthusiasts, featuring upcoming online mobile game competition.',
-        link: '#',
+        link: '',
     },
     {
         title: 'HRMS Application',
         description: 'A Human Resource Management System to manage employee records, payroll, and performance reviews.',
-        link: '#',
+        link: '',
     },
     {
         title: 'Chatting Application',
         description: 'A real-time chatting application with user authentication and group chat features.',
-        link: '#',
+        link: '',
     },
     {
         title: 'Finding Missing Person Application',
         description: 'An application to help locate missing persons using community support and real-time alerts.',
-        link: '#', // Replace with your project link
+        link: '', // Replace with your project link
     },
     {
         title: 'Portfolio',
         description: 'A personal portfolio website showcasing my projects and skills.',
-        link: '#',
+        link: '',
     },
 ];
 
