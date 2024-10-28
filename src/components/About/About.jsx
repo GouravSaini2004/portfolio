@@ -23,10 +23,10 @@ export default function About() {
                 {/* <div className="w-[300px] hidden lg:block h-auto md:w-[20%] mt-10 mb-10 ml-1 mr-1 bg-black-600">
                     <img className='p-4' src={data.avatar_url} alt="Git picture" width={300} />
                 </div> */}
-                <div className="w-[350px] h-auto md:w-[50%] mt-10 mb-10 ml-1 mr-1">
+                <div className="w-[350px] h-auto md:w-[50%] mt-10 mb-10 ml-1 mr-1 flex flex-col items-center">
                     <p className="mt-1 ml-1 text-2xl font-bold text-red-700">Discover</p>
                     <h3 className="ml-1 text-4xl font-bold text-white underline">About Me</h3>
-                    <p className="ml-1 mt-4 text-white text-sm pr-5">
+                    <p className="ml-1 mt-4 text-white text-sm pl-6">
                         Hello! I’m Gourav Saini, a budding developer with a passion for creating innovative solutions. I recently graduated with a degree in B.Tect from AKTU, where I developed a strong foundation in web development, programming languages, Mobile App development etc.
                     </p>
 
