@@ -9,7 +9,7 @@ export default function Service() {
                     <h3 className="ml-1 mt-1 text-4xl font-bold underline text-white">My Services</h3>
                 </div>
             </div>
-            <div className="w-full h-auto flex flex-wrap justify-evenly mt-8">
+            <div className="w-full flex flex-wrap justify-evenly mt-8">
                 {[
                     {
                         title: "JAVA Developer",
@@ -22,12 +22,22 @@ export default function Service() {
                         imgSrc: "https://cdn-icons-png.flaticon.com/128/7991/7991055.png"
                     },
                     {
-                        title: "UI Designer",
+                        title: "React Developer",
                         description: "Designing user-friendly interfaces that enhance user experience and engagement.",
                         imgSrc: "https://cdn-icons-png.flaticon.com/128/8407/8407535.png"
                     },
                     {
-                        title: "App Developer",
+                        title: "IoS Developer",
+                        description: "Developing cross-platform mobile applications for both iOS and Android devices.",
+                        imgSrc: "https://cdn-icons-png.flaticon.com/512/5738/5738031.png"
+                    },
+                    {
+                        title: "Node Developer",
+                        description: "Developing cross-platform mobile applications for both iOS and Android devices.",
+                        imgSrc: "https://cdn-icons-png.flaticon.com/512/5738/5738031.png"
+                    },
+                    {
+                        title: "Pyhton Developer",
                         description: "Developing cross-platform mobile applications for both iOS and Android devices.",
                         imgSrc: "https://cdn-icons-png.flaticon.com/512/5738/5738031.png"
                     },

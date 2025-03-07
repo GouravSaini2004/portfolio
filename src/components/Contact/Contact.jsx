@@ -43,7 +43,7 @@ export default function Contact() {
     };
 
     return (
-        <div className="w-screen relative flex items-top justify-center h-auto p-5 bg-gray-800">
+        <div className="w-screen h-auto relative flex items-top justify-center p-5 bg-gray-800">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between mt-6 sm:px-6 lg:px-8">
 
                 {/* Contact Information */}
@@ -89,7 +89,7 @@ export default function Contact() {
                             required
                             className="w-full p-2 border border-gray-300 rounded text-black"
                         />
-                        <p className='text-red-700'>! Please enter email carefully; otherwise we cannot connect with you.</p>
+                        <p className='text-red-700'>! Please enter email carefully; otherwise we can't connect with you.</p>
                         <textarea
                             name="comment"
                             value={formData.comment}

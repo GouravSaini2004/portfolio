@@ -8,7 +8,7 @@ export default function Home() {
 
     React.useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Web Developer', 'App Developer', 'Engineer', 'UI Designer'],
+            strings: ['Web Developer', 'Android Developer' , 'IoS Developer' , 'Node Developer',  'React Developer' , 'Django Developer'],
             typeSpeed: 100,
             loop: true
         });
@@ -19,7 +19,7 @@ export default function Home() {
         };
     }, []);
     return (
-        <div className='w-screen h-auto bg-gray-800 md:flex md:items-center md:align-middle md:justify-evenly'>
+        <div className='w-screen h-screen bg-gray-800 md:flex md:items-center md:align-middle md:justify-evenly'>
             <div className='w-auto h-auto mx-4 bord rounded-2xl flex justify-center'>
                 <div className='w-auto h-auto flex flex-col justify-center items-center'>
                     <div>

@@ -2,6 +2,9 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 
 export default function Footer() {
+    const date = new Date();
+    const year = date.getFullYear();
+
     return (
         <footer className="bg-gray-900 border-t-2 border-gray-200">
             <div className="mx-auto w-full max-w-screen-xl p-3 py-6 lg:py-4">
@@ -77,8 +80,8 @@ export default function Footer() {
                 {/* <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" /> */}
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-white sm:text-center">
-                        © 2024
-                        <a href="" className="hover:underline">
+                        © {year} 
+                        <a href="" className="hover:underline pl-1">
                             gouravsaini
                         </a>
                         . All Rights Reserved.
