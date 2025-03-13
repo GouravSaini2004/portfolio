@@ -4,7 +4,7 @@ const projects = [
     {
         title: 'MegaBlog Application',
         description: 'A comprehensive blogging platform with user authentication, post creation, and commenting features.',
-        link: 'blogmega.vercel.app', // Replace with your project link
+        link: 'https://blogmega.vercel.app', // Replace with your project link
     },
     {
         title: 'Weather Forecast Application',
@@ -14,7 +14,7 @@ const projects = [
     {
         title: 'E-Sports Website',
         description: 'A dynamic website for e-sports enthusiasts, featuring upcoming online mobile game competition.',
-        link: 'gamekarao.vercel.app',
+        link: 'https://gamekarao.vercel.app',
     },
     {
         title: 'HRMS Application',
@@ -34,7 +34,7 @@ const projects = [
     {
         title: 'Portfolio',
         description: 'A personal portfolio website showcasing my projects and skills.',
-        link: 'portfoliogourav.vercel.app',
+        link: 'https://portfoliogourav.vercel.app',
     },
 ];
 
